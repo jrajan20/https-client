@@ -21,7 +21,7 @@ function getAndPrintHTMLChunks () {
 
 }
 https.request(requestOptions, callback).end();
-})
+});
 }
 
 console.log(getAndPrintHTMLChunks())
